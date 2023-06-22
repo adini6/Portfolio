@@ -1,12 +1,14 @@
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+ 
 }
 body {
   font-family: 'Righteous', cursive;
+  background-color: azure;
 }
 .stripe {
   height: 6px;
@@ -48,3 +50,48 @@ nav ul li a {
   text-transform: uppercase;
 }
 
+
+#about {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+.project-box {
+  display: inline-block;
+  width: 200px;
+  background-color: #ebebeb;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.project-box:hover {
+  background-color: #cfcfcf;
+  cursor: pointer;
+}
+
+.project-box span {
+  color: #333333;
+  font-weight: bold;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+#projects{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px;
+
+}
