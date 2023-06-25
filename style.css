@@ -16,7 +16,8 @@ body {
   background: linear-gradient(to right, yellow, yellow 20%, red 20%, red 40%, rgb(13, 133, 2) 40%, rgb(13, 133, 2) 60%, blue 60%, blue 80%, rgb(199, 6, 183) 80%, rgb(199, 6, 183));
   margin-bottom: 20px;
 }
-.me{
+
+.me {
   padding: 10px;
   border-radius: 20%;
 }
@@ -54,7 +55,7 @@ nav ul li a {
 
 #about {
   margin: auto;
-  width: 600px;
+  max-width: 600px; /* Changed width to max-width */
   text-align: center;
 }
 
@@ -70,7 +71,7 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  width: 100%;
+  max-width: 100%; /* Added max-width */
   margin: 0 auto;
 }
 
@@ -120,31 +121,39 @@ h2 {
 
 /* Default styles */
 
-/* ... Existing CSS code ... */
-
-/* Media queries for phones */
-@media only screen and (max-width: 320px) {
-  body {
-    font-size: 14px; /* Adjust font size for phones */
-  }
-
-  /* Additional phone-specific styles if needed */
+/* Mobile */
+@media (min-width: 320px) {
+  /* Styles for mobile devices */
 }
 
-/* Media queries for tablets */
-@media only screen and (min-width: 321px) and (max-width: 768px) {
-  body {
-    font-size: 16px; /* Adjust font size for tablets */
-  }
-
-  /* Additional tablet-specific styles if needed */
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablet devices */
 }
 
-/* Media queries for computers */
-@media only screen and (min-width: 769px) {
-  body {
-    font-size: 18px; /* Adjust font size for computers */
+/* Desktop */
+@media (min-width: 1024px) {
+  /* Styles for desktop devices */
+  nav {
+    height: 80px;
   }
 
-  /* Additional computer-specific styles if needed */
+  label.logo {
+    font-size: 35px;
+    line-height: 80px;
+    padding: 15px;
+  }
+
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav ul li {
+    line-height: 80px;
+    margin: 0 5px;
+  }
+
+  h2 {
+    padding: 11px;
+  }
 }
