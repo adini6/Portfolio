@@ -6,28 +6,33 @@
   box-sizing: border-box;
 }
 
+/* Body styles */
 body {
   font-family: 'Righteous', cursive;
   background-color: azure;
 }
 
+/* Stripe styles */
 .stripe {
   height: 6px;
   background: linear-gradient(to right, yellow, yellow 20%, red 20%, red 40%, rgb(13, 133, 2) 40%, rgb(13, 133, 2) 60%, blue 60%, blue 80%, rgb(199, 6, 183) 80%, rgb(199, 6, 183));
   margin-bottom: 20px;
 }
 
+
+/* Me styles */
 .me {
   padding: 10px;
   border-radius: 20%;
 }
 
+/* Nav styles */
 nav {
   background: black;
   height: 80px;
   width: 100%;
 }
-
+/* Logo styles */
 label.logo {
   color: white;
   font-size: 35px;
@@ -35,38 +40,41 @@ label.logo {
   padding: 15px;
   font-weight: bold;
 }
-
+/* Navigation ul styles */
 nav ul {
   float: right;
   margin-right: 20px;
 }
 
+/* Navigation ul li styles */
 nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
 }
 
+/* Navigation ul li a styles */
 nav ul li a {
   color: white;
   font-size: 15px;
   text-transform: uppercase;
 }
 
+/* About section styles */
 #about {
   margin: auto;
-  max-width: 600px; /* Changed width to max-width */
+  max-width: 600px; 
   text-align: center;
 }
-
+/* Projects section styles */
 #projects {
   margin: auto;
 }
-
+/* H3 styles */
 h3 {
   padding: 8px;
 }
-
+/* Grid container styles */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -74,22 +82,22 @@ h3 {
   max-width: 100%; /* Added max-width */
   margin: 0 auto;
 }
-
+/* Project image styles */
 .project-image {
   width: 100%;
   grid-column: span 2;
 }
-
+/* Project image2 styles */
 .project-image2 {
   width: 100%;
 }
-
+/* Stripe2 styles */
 .stripe2 {
   height: 6px;
   background: linear-gradient(to right, yellow, yellow 20%, red 20%, red 40%, rgb(13, 133, 2) 40%, rgb(13, 133, 2) 60%, blue 60%, blue 80%, rgb(199, 6, 183) 80%, rgb(199, 6, 183));
   margin-top: 20px;
 }
-
+/* Footer styles */
 footer {
   background-color: black;
   color: white;
@@ -97,30 +105,29 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-
+/* H2 styles */
 h2 {
   text-align: center;
   padding: 11px;
 }
-
+/* Container styles */
 .container {
   flex: 1;
   display: flex;
   align-items: center;
 }
-
+/* Container styles for first-child */
 .container:first-child {
   margin-right: 20px;
   flex: 0.1;
 }
-
+/* Contact links styles */
 .contact-links {
   margin-left: 10px;
   color: white;
 }
 
-/* Default styles */
-
+/* Media queries */
 /* Mobile */
 @media (min-width: 320px) {
   /* Styles for mobile devices */
