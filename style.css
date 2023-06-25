@@ -16,6 +16,10 @@ body {
   background: linear-gradient(to right, yellow, yellow 20%, red 20%, red 40%, rgb(13, 133, 2) 40%, rgb(13, 133, 2) 60%, blue 60%, blue 80%, rgb(199, 6, 183) 80%, rgb(199, 6, 183));
   margin-bottom: 20px;
 }
+.me{
+  padding: 10px;
+  border-radius: 20%;
+}
 
 nav {
   background: black;
@@ -54,12 +58,14 @@ nav ul li a {
   text-align: center;
 }
 
-#projects{
+#projects {
   margin: auto;
 }
-h3{
-    padding: 8px;
+
+h3 {
+  padding: 8px;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -82,17 +88,63 @@ h3{
   background: linear-gradient(to right, yellow, yellow 20%, red 20%, red 40%, rgb(13, 133, 2) 40%, rgb(13, 133, 2) 60%, blue 60%, blue 80%, rgb(199, 6, 183) 80%, rgb(199, 6, 183));
   margin-top: 20px;
 }
+
 footer {
-  height: 50px;
   background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h2 {
   text-align: center;
   padding: 11px;
 }
-   
-.contacts{
-  text-align: left;
+
+.container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.container:first-child {
+  margin-right: 20px;
+  flex: 0.1;
+}
+
+.contact-links {
+  margin-left: 10px;
   color: white;
+}
+
+/* Default styles */
+
+/* ... Existing CSS code ... */
+
+/* Media queries for phones */
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 14px; /* Adjust font size for phones */
+  }
+
+  /* Additional phone-specific styles if needed */
+}
+
+/* Media queries for tablets */
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  body {
+    font-size: 16px; /* Adjust font size for tablets */
+  }
+
+  /* Additional tablet-specific styles if needed */
+}
+
+/* Media queries for computers */
+@media only screen and (min-width: 769px) {
+  body {
+    font-size: 18px; /* Adjust font size for computers */
+  }
+
+  /* Additional computer-specific styles if needed */
 }
