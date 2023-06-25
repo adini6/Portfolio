@@ -1,27 +1,26 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
- 
 }
+
 body {
   font-family: 'Righteous', cursive;
   background-color: azure;
 }
+
 .stripe {
   height: 6px;
-  background: linear-gradient(to right,yellow, yellow 20%, red 20%, red 40%, rgb(13, 133, 2) 40%, rgb(13, 133, 2)  60%, blue 60%, blue 80%, rgb(199, 6, 183) 80%, rgb(199, 6, 183));
-  margin: 0 0 20px 0;
+  background: linear-gradient(to right, yellow, yellow 20%, red 20%, red 40%, rgb(13, 133, 2) 40%, rgb(13, 133, 2) 60%, blue 60%, blue 80%, rgb(199, 6, 183) 80%, rgb(199, 6, 183));
+  margin-bottom: 20px;
 }
+
 nav {
   background: black;
   height: 80px;
   width: 100%;
- ;
-  
-  
 }
 
 label.logo {
@@ -35,7 +34,6 @@ label.logo {
 nav ul {
   float: right;
   margin-right: 20px;
-  
 }
 
 nav ul li {
@@ -50,48 +48,51 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-
 #about {
   margin: auto;
   width: 600px;
   text-align: center;
 }
 
-.project-box {
-  display: inline-block;
-  width: 200px;
-  background-color: #ebebeb;
-  border-radius: 5px;
-  padding: 20px;
-  text-align: center;
-  transition: background-color 0.3s;
-  text-decoration: none;
-}
-
-.project-box:hover {
-  background-color: #cfcfcf;
-  cursor: pointer;
-}
-
-.project-box span {
-  color: #333333;
-  font-weight: bold;
-}
-
-.project img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-.project {
-  margin-bottom: 20px;
-}
-
 #projects{
+  margin: auto;
+}
+h3{
+    padding: 8px;
+}
+.grid-container {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
 
+.project-image {
+  width: 100%;
+  grid-column: span 2;
+}
+
+.project-image2 {
+  width: 100%;
+}
+
+.stripe2 {
+  height: 6px;
+  background: linear-gradient(to right, yellow, yellow 20%, red 20%, red 40%, rgb(13, 133, 2) 40%, rgb(13, 133, 2) 60%, blue 60%, blue 80%, rgb(199, 6, 183) 80%, rgb(199, 6, 183));
+  margin-top: 20px;
+}
+footer {
+  height: 50px;
+  background-color: black;
+}
+
+h2 {
+  text-align: center;
+  padding: 11px;
+}
+   
+.contacts{
+  text-align: left;
+  color: white;
 }
