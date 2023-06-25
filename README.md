@@ -28,6 +28,13 @@ This is my portfolio website that allows you to sample some of my previous work.
 
 5. Feel free to resize the page or view the website on different devices to see the responsive layout in action.
 
+![image](https://github.com/adini6/Portfolio/assets/28551058/dce19c00-8e40-4ff0-9d26-8208bb0a6d77)
+![image](https://github.com/adini6/Portfolio/assets/28551058/1e09cf45-22f6-4fab-b7c1-9f165e527d25)
+![image](https://github.com/adini6/Portfolio/assets/28551058/1dc83e74-f190-43de-a3c6-3a1e5e6a6ef7)
+
+
+
+
 ## Technologies Used
 
 - HTML
